@@ -91,7 +91,7 @@ class Waiter
       waiter_a.yrs_experience <=> waiter_b.yrs_experience
     end
     puts waiter
-    wiater
+    waiter
   end
 
   def self.least_experienced_waiter
