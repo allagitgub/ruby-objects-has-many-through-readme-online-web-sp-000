@@ -90,7 +90,7 @@ class Waiter
     waiter = Waiter.all.find.max do |waiter_a, waiter_b|
       waiter_a.yrs_experience <=> waiter_b.yrs_experience
     end
-    puts waiter
+    puts waiter.name
     waiter
   end
 
@@ -98,7 +98,7 @@ class Waiter
     waiter = Waiter.all.find.min do |waiter_a, waiter_b|
       waiter_a.yrs_experience <=> waiter_b.yrs_experience
     end
-    puts waiter
+    puts waiter.name
     waiter
   end
 
